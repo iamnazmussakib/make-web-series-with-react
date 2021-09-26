@@ -10,7 +10,7 @@ const Character = (props) => {
             <h4>Occupation: {occupation}</h4>
             <p>Age: {Age}</p>
             <h3>Budget: TK {demand}</h3>
-            <button onClick={()=> props.addCharHandler(props.character)}><i class="fas fa-user-plus"></i> Add Character</button>
+            <button title="in a web series you can add character for one time" onClick={()=> props.addCharHandler(props.character)}><i class="fas fa-user-plus"></i> Add Character</button>
         </div>
     );
 };

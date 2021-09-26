@@ -12,5 +12,6 @@
     background: rgb(78, 78, 78);
     padding: 10px 40px;
     font-weight: bold;
-    border: 2px solid black
+    border: 2px solid black;
+    cursor: pointer;
 }
