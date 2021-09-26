@@ -28,7 +28,7 @@ const Characters = () => {
                 }
             </div>
             <div className="calculate">
-                <CharCount charCount={charItem}></CharCount>
+                <CharCount key={charItem.id} charCount={charItem}></CharCount>
             </div>
         </div>
     );

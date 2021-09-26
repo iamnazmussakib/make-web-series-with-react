@@ -8,6 +8,7 @@ const CharCount = (props) => {
     for(const character of charCount){
         totalCost = totalCost + character.demand;
         charNames.push(character.name);
+        
     }
     return (
         <div className="costing">
